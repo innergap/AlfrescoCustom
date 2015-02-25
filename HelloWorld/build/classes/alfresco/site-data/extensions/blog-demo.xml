@@ -1,0 +1,20 @@
+<extension>         
+  <modules>                
+    <module>                      
+      <id>Version Module</id>   
+      <auto-deploy>true</auto-deploy>                       
+      <components>                             
+          <component>                                    
+              <region-id>document-actions</region-id>                                    
+              <source-id>document-details</source-id>                                    
+              <scope>template</scope>                                    
+              <sub-components>                                          
+                <sub-component id= "New_Content" index= "25" >                                                
+                <url>/version/display-version?nodeRef={nodeRef}</url>                                          
+               </sub-component>                                   
+              </sub-components>                              
+          </component>                        
+       </components>                  
+     </module>            
+    </modules>   
+</extension>

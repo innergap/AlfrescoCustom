@@ -1,0 +1,5 @@
+<webscript>
+  <shortname>display-version</shortname>
+  <description>display version</description>
+  <url>/version/display-version?nodeRef={nodeRef}</url>
+</webscript>
